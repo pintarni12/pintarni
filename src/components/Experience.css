@@ -1,0 +1,53 @@
+/* src/components/Experience.css */
+.experience {
+    padding: 80px 40px;
+    background-color: #eddbc4;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .experience-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .experience-image img {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-text {
+    max-width: 600px;
+  }
+  
+  .experience-text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .experience-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .experience-text ul {
+    padding-left: 20px;
+    list-style: disc;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .experience-text li {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  

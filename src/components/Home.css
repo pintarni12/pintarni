@@ -1,0 +1,92 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9ae89;
+    padding: 80px;
+    border-radius: 10px;
+  }
+  
+  .home-content {
+    max-width: 500px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 1.6rem;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .home-image img {
+    width: 280px;
+    border-radius: 50%;
+    border: 5px solid #eee;
+  }
+  .home-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8c9a9; /* warna krem lembut */
+    padding: 80px;
+    border-radius: 20px;
+    font-family: 'Lora', serif;
+  }
+  
+  .home-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #3e2f20;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-size: 1.5rem;
+    color: #5c4331;
+    margin-bottom: 25px;
+  }
+  
+  .social-icons a {
+    font-size: 1.8rem;
+    margin-right: 20px;
+    color: #5c4331;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #a35b2a;
+  }
+  
+  .home-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid #fff6ed;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  

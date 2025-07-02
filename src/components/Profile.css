@@ -1,0 +1,43 @@
+/* src/components/Profile.css */
+.profile {
+    padding: 80px 50px;
+    background: #fdf6ee;
+    text-align: center;
+  }
+  
+  .profile h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+    font-family: 'Georgia', serif;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .polaroid {
+    width: 160px;
+    height: auto;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .polaroid:hover {
+    transform: rotate(0deg) scale(1.05);
+  }
+  
